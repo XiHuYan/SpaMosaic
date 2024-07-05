@@ -4,8 +4,8 @@ Mosaic integration, in which different datasets share part of the measured modal
 
 ## Installation
 ```
-git clone 
-cd 
+git clone https://github.com/XiHuYan/SpaMosaic.git
+cd SpaMosaic
 conda create -n SpaMosaic python=3.8.8
 pip install -r requirements.txt
 
@@ -34,10 +34,9 @@ Public datasets
 6. Mouse embryo: {[`slice 1`](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205055)}, {[`slice 2,3,4`](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171943)}
 7. Five-modal mouse brain dataset (rna+atac+histone): [`four slices`](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205055)
 
-We have organized the simulation datasets, in-house datasets and public datasets into [`h5ad`](zenodo) files. 
+We have organized the simulation datasets, in-house datasets and public datasets into [`h5ad`](https://zenodo.org/uploads/12654113) files. 
 
 ## Reproduce other methods
-We compared SpaMosaic with other methods, including [`CLUE`](https://github.com/openproblems-
-bio/neurips2021_multimodal_topmethods/tree/main/src/match_modality/methods/clue), [`Cobolt`](https://github.com/epurdom/cobolt), [`scMoMaT`](https://github.com/PeterZZQ/scMoMaT), [`StabMap`](https://github.com/MarioniLab/StabMap), [`MIDAS`](https://sc-midas-docs.readthedocs.io/en/latest/mosaic.html), [`TotalVI`](https://docs.scvi-tools.org/en/stable/tutorials/notebooks/multimodal/totalVI.html), [`MultiVI`](https://docs.scvi-tools.org/en/stable/tutorials/notebooks/multimodal/MultiVI_tutorial.html), [`Babel`](https://github.com/OmicsML/dance/tree/main/examples/multi_modality/predict_modality/babel.py). 
+We compared SpaMosaic with other methods, including [`CLUE`](https://github.com/openproblems-bio/neurips2021_multimodal_topmethods/tree/main/src/match_modality/methods/clue), [`Cobolt`](https://github.com/epurdom/cobolt), [`scMoMaT`](https://github.com/PeterZZQ/scMoMaT), [`StabMap`](https://github.com/MarioniLab/StabMap), [`MIDAS`](https://sc-midas-docs.readthedocs.io/en/latest/mosaic.html), [`TotalVI`](https://docs.scvi-tools.org/en/stable/tutorials/notebooks/multimodal/totalVI.html), [`MultiVI`](https://docs.scvi-tools.org/en/stable/tutorials/notebooks/multimodal/MultiVI_tutorial.html), [`Babel`](https://github.com/OmicsML/dance/tree/main/examples/multi_modality/predict_modality/babel.py). 
 
 
