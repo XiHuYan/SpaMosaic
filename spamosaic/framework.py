@@ -13,6 +13,7 @@ import warnings
 import itertools
 from os.path import join
 import torch
+import pkg_resources
 
 import logging
 import torch
@@ -32,7 +33,7 @@ import spamosaic.build_graph as build_graph
 import spamosaic.architectures as archs
 from spamosaic.loss import CL_loss
 
-cur_dir = os.path.dirname(os.path.abspath(__file__))
+# cur_dir = os.path.dirname(os.path.abspath(__file__))
 
 class SpaMosaic(object):
     def __init__(
@@ -164,8 +165,10 @@ class SpaMosaic(object):
         self.mod_graphs = mod_graphs
 
     def prepare_net(self, net):
-        config = utls.load_config(f'{cur_dir}/configs/{net}.yaml')
-        
+        # config = utls.load_config(f'{cur_dir}/configs/{net}.yaml')
+        config_path = pkg_resources.resource_filename('spamosaic', f'configs/{net}.yaml')
+        config = utls.load_config(config_path)
+
         mod_model = {}
         for k in self.mod_list:
             encoder = archs.wlgcn.WLGCN(self.mod_graphs['attribute_dim'][k], config.model.out_dim, K=config.model.n_layer, dec_l=config.model.n_dec_l, 

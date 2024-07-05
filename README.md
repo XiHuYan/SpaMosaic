@@ -7,6 +7,7 @@ Mosaic integration, in which different datasets share part of the measured modal
 git clone https://github.com/XiHuYan/SpaMosaic.git
 cd SpaMosaic
 conda create -n SpaMosaic python=3.8.8
+conda activate SpaMosaic
 pip install -r requirements.txt
 
 # install torch
@@ -14,15 +15,15 @@ pip install torch==2.1.1+cu121 -f https://download.pytorch.org/whl/torch_stable.
 # install torch_geometrics
 pip install torch_geometric==2.4.0 pyg_lib==0.3.1+pt21cu121 torch_scatter==2.1.2+pt21cu121 torch_sparse==0.6.18+pt21cu121 torch_cluster==1.6.3+pt21cu121 torch_spline_conv==1.2.2+pt21cu121 -f https://data.pyg.org/whl/torch-2.1.1+cu121.html
 
-python setup.py
+python setup.py install
 ```
 R package `mclust` is needed to perform clustering and make sure it installed in a R environment.  
 
 ## Tutorial
-* [`horizontal integration`](./integration_example/horizontal) 
-* [`vertical integration`](./integration_example/vertical) 
-* [`mosaic integration`](./integration_example/mosaic) 
-* [`imputation `](./imputation_example/) 
+* [`horizontal integration`](./integration_examples/horizontal) 
+* [`vertical integration`](./integration_examples/vertical) 
+* [`mosaic integration`](./integration_examples/mosaic) 
+* [`imputation `](./imputation_examples/) 
 
 ## Data
 Public datasets
