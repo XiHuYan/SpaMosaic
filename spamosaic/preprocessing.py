@@ -141,18 +141,22 @@ def harmony(latent, batch_labels, use_gpu=True):
     )
     return bc_latent
 
-def RNA_preprocess(rna_ads, batch_corr=False, favor='adapted', n_hvg=5000, batch_key='src', key='dimred_bc', return_hvf=False):
+def RNA_preprocess(rna_ads, batch_corr=False, favor='adapted', n_hvg=5000, lognorm=True, scale=False, batch_key='src', key='dimred_bc', return_hvf=False):
     measured_ads = [ad for ad in rna_ads if ad is not None]
     ad_concat = sc.concat(measured_ads)
     if favor=='scanpy':
-        sc.pp.normalize_total(ad_concat, target_sum=1e4)
-        sc.pp.log1p(ad_concat)
-        sc.pp.highly_variable_genes(ad_concat, n_top_genes=n_hvg, batch_key=batch_key)
-        # sc.pp.scale(ad_concat) # do not like scale operation
-        ad_concat = ad_concat[:, ad_concat.var.query('highly_variable').index.to_numpy()].copy()
+        if lognorm:
+            sc.pp.normalize_total(ad_concat, target_sum=1e4)
+            sc.pp.log1p(ad_concat)
+        if n_hvg:
+            sc.pp.highly_variable_genes(ad_concat, n_top_genes=n_hvg, batch_key=batch_key)
+            ad_concat = ad_concat[:, ad_concat.var.query('highly_variable').index.to_numpy()].copy()
+        if scale: 
+            sc.pp.scale(ad_concat)
         sc.pp.pca(ad_concat, n_comps=min(50, ad_concat.n_vars-1))
         tmp_key = 'X_pca'
     else:
+        n_hvg = n_hvg if n_hvg else ad_concat.shape[1]
         sc.pp.highly_variable_genes(ad_concat, flavor='seurat_v3', n_top_genes=n_hvg, batch_key=batch_key)
         transformer = lsiTransformer(n_components=50, drop_first=False, log=True, norm=True, z_score=True, tfidf=False, svd=True, pcaAlgo='arpack')
         ad_concat.obsm['X_lsi'] = transformer.fit_transform(ad_concat[:, ad_concat.var.query('highly_variable').index.to_numpy()]).values
@@ -168,13 +172,21 @@ def RNA_preprocess(rna_ads, batch_corr=False, favor='adapted', n_hvg=5000, batch
         ad_concat.obsm[key] = ad_concat.obsm[tmp_key]
     split_adata_ob([ad for ad in rna_ads if ad is not None], ad_concat, ob='obsm', key=key)
 
-    if return_hvf:
+    if n_hvg and return_hvf:
         return ad_concat.var.query('highly_variable').index.to_numpy(), np.where(ad_concat.var['highly_variable'])[0]
 
-def ADT_preprocess(adt_ads, batch_corr=False, batch_key='src', key='dimred_bc'):
+def ADT_preprocess(adt_ads, batch_corr=False, favor='clr', lognorm=True, scale=False, batch_key='src', key='dimred_bc'):
     measured_ads = [ad for ad in adt_ads if ad is not None]
     ad_concat = sc.concat(measured_ads)
-    ad_concat = clr_normalize(ad_concat)
+    if favor=='clr':
+        ad_concat = clr_normalize(ad_concat)
+        # if scale: sc.pp.scale(ad_concat)
+    else:
+        if lognorm:
+            sc.pp.normalize_total(ad_concat, target_sum=1e4)
+            sc.pp.log1p(ad_concat)
+        if scale: sc.pp.scale(ad_concat)
+            
     sc.pp.pca(ad_concat, n_comps=min(50, ad_concat.n_vars-1))
 
     if len(measured_ads) > 1 and batch_corr:
