@@ -20,11 +20,15 @@ Features and Capabilities
 From the perspective of computational task, ``SpaMosaic`` can handle:
 
 1. **Integration**:
+
    - **Horizontal Integration**: Integrate multiple sections sharing the same modality.
+
    - **Vertical Integration**: Integrate multiple modalities from a single section.
+
    - **Mosaic Integration**: Integrate multiple sections with different multi-modal compositions.
 
 2. **Imputation**:
+
    - For mosaic datasets, **SpaMosaic** imputes missing assays for each section, facilitating a more comprehensive analysis.
 
 
@@ -32,8 +36,10 @@ Getting started with SpaMosaic
 ------------------------------
 
 To begin using **SpaMosaic**, please refer to the following sections of the documentation:
-- The [Installation Guide](install) provides instructions for setting up **SpaMosaic** in your environment.
-- The [Integration-tutorials](tutorials/index) contains examples on how to use **SpaMosaic** for various integration and imputation tasks.
+
+- The `Installation Guide <install>`_ provides instructions for setting up **SpaMosaic** in your environment.
+
+- The `Integration tutorials <tutorials/index>`_ contains examples on how to use **SpaMosaic** for various integration and imputation tasks.
 
 .. toctree::
    :maxdepth: 2

@@ -8,33 +8,26 @@ Tutorials
 
    <table>
      <tr>
-       <td>
-         .. figure:: _static/horizontal.png
-            :width: 100px
-            :align: center
-
-            **horizontal integration**
+       <td style="text-align: center;">
+         <img src="../_static/horizontal.png" alt="Horizontal Integration" style="width: 100px;"/>
+         <div><strong>horizontal integration</strong></div>
        </td>
-       <td>
-         .. figure:: _static/vertical.png
-            :width: 100px
-            :align: center
-
-            **vertical integration**
+       <td style="text-align: center;">
+         <img src="../_static/vertical.png" alt="Vertical Integration" style="width: 100px;"/>
+         <div><strong>vertical integration</strong></div>
        </td>
-       <td>
-         .. figure:: _static/mosaic.png
-            :width: 100px
-            :align: center
-
-            **mosaic integration**
+       <td style="text-align: center;">
+         <img src="../_static/mosaic.png" alt="Mosaic Integration" style="width: 100px;"/>
+         <div><strong>mosaic integration</strong></div>
        </td>
      </tr>
    </table>
 
 
+
 **Imputation**
-.. figure:: _static/imputation.png
+
+.. figure:: ../_static/imputation.png
             :width: 100px
             :align: center
 
