@@ -24,7 +24,6 @@ Horizontal Integration
 .. toctree::
    :maxdepth: 2
    :caption: Horizontal integration
-..    :hidden:
 
-   ./Tonsil_horizontal_beta.ipynb
-   ./MB_RNA_horizontal_beta.ipynb
+   ./Tonsil_horizontal_beta
+   ./MB_RNA_horizontal_beta
