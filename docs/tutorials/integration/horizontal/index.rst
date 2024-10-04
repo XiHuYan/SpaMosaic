@@ -11,18 +11,18 @@ Horizontal Integration
          :width: 120px
          :align: center
 
-       `Integrate mouse brain sections in the RNA modality <MB_RNA_horizontal_beta>`_
+       `Integrate mouse brain sections in the RNA modality <MB_RNA_horizontal_beta.ipynb>`_
 
      - .. image:: ../../../_static/tonsil_rna_horizontal.jpg
          :width: 120px
          :align: center
 
-       `Integrate tonsil sections in the RNA modality <Tonsil_horizontal_beta>`_
+       `Integrate tonsil sections in the RNA modality <Tonsil_horizontal_beta.ipynb>`_
 
 .. toctree::
    :maxdepth: 1
    :caption: horizontal integration
 ..    :hidden:
 
-   Tonsil_horizontal_beta
-   MB_RNA_horizontal_beta
+   Tonsil_horizontal_beta.ipynb
+   MB_RNA_horizontal_beta.ipynb
