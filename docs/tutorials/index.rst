@@ -10,40 +10,42 @@ Tutorials
    :header-rows: 0
 
    * - .. image:: ../_static/horizontal.jpg
-         :width: 100px
+         :width: 120px
          :align: center
 
-       **Horizontal Integration**
+       `Horizontal Integration <tutorials/integration/horizontal/index>`_
 
      - .. image:: ../_static/vertical.jpg
-         :width: 100px
+         :width: 120px
          :align: center
 
-       **Vertical Integration**
+       `Vertical Integration <tutorials/integration/vertical/index>`_
 
      - .. image:: ../_static/mosaic.jpg
-         :width: 100px
+         :width: 120px
          :align: center
 
-       **Mosaic Integration**
+       `Mosaic Integration <tutorials/integration/mosaic/index>`_
 
 
 
 **Imputation**
 
 .. figure:: ../_static/imputation.jpg
-   :width: 80%
-   :align: center
+   :width: 240px
+   :align: left
 
-   **imputation**
+   `Imputation <tutorials/imputation/index>`_
 
+.. directory
 
-   .. toctree::
-      :maxdepth: 2
-      :caption: Tutorials
+.. toctree::
+   :maxdepth: 2
+   :caption: Tutorials
+   :hidden:
 
-      integration/horizontal/index
-      integration/vertical/index
-      integration/mosaic/index
-      imputation/index
+   integration/horizontal/index
+   integration/vertical/index
+   integration/mosaic/index
+   imputation/index
 

@@ -44,6 +44,7 @@ To begin using **SpaMosaic**, please refer to the following sections of the docu
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
+   :hidden:
 
    install
    tutorials/index
