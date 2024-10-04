@@ -13,13 +13,13 @@ Mosaic Integration
 
        `Simulation (RNA+Protein) <./Simulations_with_batch_effects.ipynb>`_
 
-   * - .. image:: ../../../_static/mb_h3k4me3_mosaic.jpg
+     - .. image:: ../../../_static/mb_h3k4me3_mosaic.jpg
          :width: 120px
          :align: center
 
        `Mouse brain (RNA+H3K4me3) <./Mouse_postnatal_brain_rna+H3K4me3_beta.ipynb>`_
 
-   * - .. image:: ../../../_static/tonsil_mosaic.jpg
+     - .. image:: ../../../_static/tonsil_mosaic.jpg
          :width: 120px
          :align: center
 
