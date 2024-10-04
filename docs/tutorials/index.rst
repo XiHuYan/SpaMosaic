@@ -4,30 +4,33 @@ Tutorials
 .. Tutorials
 
 **Integration**
-.. raw:: html
+.. list-table::
+   :widths: 33 33 33
+   :header-rows: 0
 
-   <table>
-     <tr>
-       <td style="text-align: center;">
-         <img src="../_static/horizontal.png" alt="Horizontal Integration" style="width: 100px;"/>
-         <div><strong>horizontal integration</strong></div>
-       </td>
-       <td style="text-align: center;">
-         <img src="../_static/vertical.png" alt="Vertical Integration" style="width: 100px;"/>
-         <div><strong>vertical integration</strong></div>
-       </td>
-       <td style="text-align: center;">
-         <img src="../_static/mosaic.png" alt="Mosaic Integration" style="width: 100px;"/>
-         <div><strong>mosaic integration</strong></div>
-       </td>
-     </tr>
-   </table>
+   * - .. image:: ../_static/horizontal.jpg
+         :width: 100px
+         :align: center
+
+       **Horizontal Integration**
+
+     - .. image:: ../_static/vertical.jpg
+         :width: 100px
+         :align: center
+
+       **Vertical Integration**
+
+     - .. image:: ../_static/mosaic.jpg
+         :width: 100px
+         :align: center
+
+       **Mosaic Integration**
 
 
 
 **Imputation**
 
-.. figure:: ../_static/imputation.png
+.. figure:: ../_static/imputation.jpg
             :width: 100px
             :align: center
 

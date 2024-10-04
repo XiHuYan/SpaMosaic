@@ -1,11 +1,8 @@
 Installation
 ============
 
-Installation
-------------
-
 .. note::
-   Currently, SpaMosaic only supports GPU-enabled versions. For our experiment, we used an NVIDIA A6000 GPU with CUDA 12.1.
+   Currently, SpaMosaic only supports GPU-enabled version. For our experiments, we used an NVIDIA A6000 GPU with CUDA 12.1.
 
 Create a new environment and activate it:
 
