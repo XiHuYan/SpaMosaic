@@ -17,7 +17,6 @@ release = 'v1.0'
 extensions = [
     'sphinx_rtd_theme',
     'nbsphinx',
-    'nbsphinx_gallery',
 ]
 nbsphinx_execute = 'never'
 templates_path = ['_templates']
