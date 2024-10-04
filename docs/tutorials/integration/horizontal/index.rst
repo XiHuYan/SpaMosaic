@@ -13,11 +13,11 @@ Horizontal Integration
 
        `Mouse brain (RNA) <./MB_RNA_horizontal_beta.ipynb>`_
 
-     - .. image:: ../../../_static/tonsil_rna_horizontal.jpg
+   * - .. image:: ../../../_static/tonsil_rna_horizontal.jpg
          :width: 120px
          :align: center
 
-       `Tonsil (RNA) <./Tonsil_horizontal_beta.ipynb>`_
+       `Tonsil (RNA) <./Tonsil_RNA_horizontal_beta.ipynb>`_
 
 .. toctree::
    :maxdepth: 1
@@ -25,5 +25,5 @@ Horizontal Integration
    :caption: Horizontal integration
    :hidden:
 
-   ./Tonsil_horizontal_beta
+   ./Tonsil_RNA_horizontal_beta
    ./MB_RNA_horizontal_beta
