@@ -14,6 +14,7 @@ Tutorials
          :align: center
          
        .. container:: center-caption
+
           `Horizontal Integration <integration/horizontal/index>`_
 
      - .. image:: ../_static/vertical.jpg
@@ -21,13 +22,15 @@ Tutorials
          :align: center
 
        .. container:: center-caption
+
           `Vertical Integration <integration/vertical/index>`_
 
      - .. image:: ../_static/mosaic.jpg
          :width: 120px
          :align: center
-         
+
        .. container:: center-caption
+        
           `Mosaic Integration <integration/mosaic/index>`_
 
 
