@@ -19,10 +19,12 @@ Horizontal Integration
 
        `Integrate tonsil sections in the RNA modality <Tonsil_horizontal_beta.ipynb>`_
 
+- The `Tutorials <./Tonsil_horizontal_beta>`_ hello
+
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: horizontal integration
 ..    :hidden:
 
-   Tonsil_horizontal_beta.ipynb
-   MB_RNA_horizontal_beta.ipynb
+   ./Tonsil_horizontal_beta.ipynb
+   ./MB_RNA_horizontal_beta.ipynb
