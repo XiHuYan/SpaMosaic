@@ -1,22 +1,26 @@
-Horizontal Integration Tutorial
-===============================
+Horizontal Integration
+======================
 
-.. Horizontal Integration Tutorial
+.. Horizontal Integration 
 
-.. figure:: ../../../_static/mb_rna_horizontal.jpg
-   :width: 80%
-   :align: center
+.. list-table::
+   :widths: 50 50
+   :header-rows: 0
 
-   `Integrate mouse brain sections in the RNA modality <horizontal/MB_RNA_horizontal_beta>`_
+   * - .. image:: ../../../_static/mb_rna_horizontal.jpg
+         :width: 120px
+         :align: center
 
-.. figure:: ../../../_static/tonsil_rna_horizontal.jpg
-   :width: 80%
-   :align: center
+       `Integrate mouse brain sections in the RNA modality <MB_RNA_horizontal_beta>`_
 
-   `Integrate tonsil sections in the RNA modality <horizontal/Tonsil_horizontal_beta>`_
+     - .. image:: ../../../_static/tonsil_rna_horizontal.jpg
+         :width: 120px
+         :align: center
+
+       `Integrate tonsil sections in the RNA modality <Tonsil_horizontal_beta>`_
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: horizontal integration
    :hidden:
 
