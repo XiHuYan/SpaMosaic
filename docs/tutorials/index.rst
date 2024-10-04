@@ -40,7 +40,7 @@ Tutorials
 .. directory
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Tutorials
    :hidden:
 

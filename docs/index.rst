@@ -47,7 +47,4 @@ To begin using **SpaMosaic**, please refer to the following sections of the docu
    :hidden:
 
    install
-   tutorials/integration/horizontal/index
-   tutorials/integration/vertical/index
-   tutorials/integration/mosaic/index
-   tutorials/imputation/index
+   tutorials/index
