@@ -7,8 +7,6 @@ Tutorials
       :maxdepth: 3
       :caption: Tutorials
 
-      integration/mosaic/index
-      integration/vertical/index
-      integration/horizontal/index
+      integration/index
       imputation/index
 

@@ -18,7 +18,4 @@ To get started with ``SpaMosaic``, check out our {doc}`installation <install>` a
    :caption: Contents:
 
    install
-   tutorials/integration/mosaic/index
-   tutorials/integration/vertical/index
-   tutorials/integration/horizontal/index
-   tutorials/imputation/index
+   tutorials/index
