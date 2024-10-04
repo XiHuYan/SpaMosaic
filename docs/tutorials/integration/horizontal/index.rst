@@ -7,17 +7,21 @@ Horizontal Integration
    :widths: 50 50
    :header-rows: 0
 
-   * - .. image:: ../../../_static/mb_rna_horizontal.jpg
+   * - .. figure:: ../../../_static/mb_rna_horizontal.jpg
          :width: 120px
-        ..  :align: center
+         :align: center
 
-       .. centered:: `Mouse brain (RNA) <./MB_RNA_horizontal_beta.ipynb>`_
+       .. container:: center-caption
 
-     - .. image:: ../../../_static/tonsil_rna_horizontal.jpg
+          `Mouse brain (RNA) <./MB_RNA_horizontal_beta.ipynb>`_
+
+     - .. figure:: ../../../_static/tonsil_rna_horizontal.jpg
          :width: 120px
-        ..  :align: center
+         :align: center
+       
+       .. container:: center-caption
 
-       .. centered:: `Tonsil (RNA) <./Tonsil_RNA_horizontal_beta.ipynb>`_
+          `Tonsil (RNA) <./Tonsil_RNA_horizontal_beta.ipynb>`_
 
 .. toctree::
    :maxdepth: 1
