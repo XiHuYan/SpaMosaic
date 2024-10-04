@@ -11,13 +11,15 @@ Vertical Integration
          :width: 120px
          :align: center
 
-       `Mouse brain (RNA+ATAC) <./MB_vertical_beta.ipynb>`_
+       .. container:: center-caption
+          `Mouse brain (RNA+ATAC) <./MB_vertical_beta.ipynb>`_
 
      - .. image:: ../../../_static/tonsil_vertical.jpg
          :width: 120px
          :align: center
-         
-       `Tonsil (RNA+Protein) <./Tonsil_vertical_beta.ipynb>`_
+
+       .. container:: center-caption
+          `Tonsil (RNA+Protein) <./Tonsil_vertical_beta.ipynb>`_
 
 .. toctree::
    :maxdepth: 2

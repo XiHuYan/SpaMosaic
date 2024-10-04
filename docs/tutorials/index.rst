@@ -12,20 +12,23 @@ Tutorials
    * - .. image:: ../_static/horizontal.jpg
          :width: 120px
          :align: center
-
-       `Horizontal Integration <integration/horizontal/index>`_
+         
+       .. container:: center-caption
+          `Horizontal Integration <integration/horizontal/index>`_
 
      - .. image:: ../_static/vertical.jpg
          :width: 120px
          :align: center
 
-       `Vertical Integration <integration/vertical/index>`_
+       .. container:: center-caption
+          `Vertical Integration <integration/vertical/index>`_
 
      - .. image:: ../_static/mosaic.jpg
          :width: 120px
          :align: center
-
-       `Mosaic Integration <integration/mosaic/index>`_
+         
+       .. container:: center-caption
+          `Mosaic Integration <integration/mosaic/index>`_
 
 
 
