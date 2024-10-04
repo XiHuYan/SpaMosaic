@@ -4,6 +4,7 @@ Tutorials
 .. Tutorials
 
 **Integration**
+
 .. list-table::
    :widths: 33 33 33
    :header-rows: 0
@@ -31,10 +32,10 @@ Tutorials
 **Imputation**
 
 .. figure:: ../_static/imputation.jpg
-            :width: 100px
-            :align: center
+   :width: 80%
+   :align: center
 
-            **imputation**
+   **imputation**
 
 
    .. toctree::
