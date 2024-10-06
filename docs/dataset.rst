@@ -5,7 +5,7 @@ We provide the processed data files used in our paper:
 
 .. list-table:: 
    :header-rows: 1
-   :widths: 5 25 10 20 15 20
+   :widths: 5 25 10 20 15 25 20
 
    * - Index
      - Task
