@@ -18,7 +18,7 @@ We provide the processed data files used in our paper:
      - Horizontal integration
      - `Zhang et al. <https://www.nature.com/articles/s41586-023-05795-1>`_
      - Mouse
-     - Brain (coronol)
+     - Brain (coronal)
      - Spatial ATAC-RNA seq
      - `Google drive <https://drive.google.com/drive/folders/1FM42Ibhrf5l6cjzORTFqEXLuxlT5ltJ2?usp=drive_link>`_
    * - 2
@@ -32,7 +32,7 @@ We provide the processed data files used in our paper:
      - Vertical integration
      - `Zhang et al. <https://www.nature.com/articles/s41586-023-05795-1>`_
      - Mouse
-     - Brain (coronol)
+     - Brain (coronal)
      - Spatial ATAC-RNA seq
      - `Google drive <https://drive.google.com/drive/folders/1bat-BGO3YAuC5GM9UNNyq4BcD6y6lJw2?usp=drive_link>`_
    * - 4
@@ -53,7 +53,7 @@ We provide the processed data files used in our paper:
      - Mosaic integration
      - `Zhang et al. <https://www.nature.com/articles/s41586-023-05795-1>`_, `Deng et al. <https://www.science.org/doi/abs/10.1126/science.abg7216>`_ 
      - Mouse 
-     - Brain (coronol)
+     - Brain (coronal)
      - Spatial CUT&Tag–RNA-seq, Spatial-CUT&Tag seq 
      - `Google drive <https://drive.google.com/drive/folders/10ySKpZXvl7ryC8GpSKyzovvC1pg2xVC2?usp=drive_link>`_
    * - 7
@@ -67,7 +67,7 @@ We provide the processed data files used in our paper:
      - Imputation
      - `Zhang et al. <https://www.nature.com/articles/s41586-023-05795-1>`_
      - Mouse
-     - Brain (coronol)
+     - Brain (coronal)
      - Spatial ATAC-RNA seq
      - `Google drive <https://drive.google.com/drive/folders/1GyOvHxweRYrq8Hiq5OdKhfSowUfcMoXY?usp=drive_link>`_
    * - 9
