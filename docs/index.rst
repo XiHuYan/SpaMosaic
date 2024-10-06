@@ -48,3 +48,5 @@ To begin using **SpaMosaic**, please refer to the following sections of the docu
 
    install
    tutorials/index
+   dataset
+   credits

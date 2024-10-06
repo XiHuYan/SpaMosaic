@@ -37,12 +37,10 @@ The figures below are cited from `Richard et. al, Nature Biotechnology <https://
         
           `Mosaic Integration <./integration/mosaic/index.rst>`_
 
-
-
 **Imputation**
 
 .. figure:: ../_static/imputation.jpg
-   :width: 240px
+   :width: 360px
    :align: left
 
    `Imputation <./imputation/index.rst>`_
