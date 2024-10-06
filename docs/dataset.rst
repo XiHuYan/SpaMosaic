@@ -45,9 +45,9 @@ We provide the processed data files used in our paper:
    * - 5
      - Mosaic integration
      - Simulated data
-     - -
-     - -
-     - -
+     - /
+     - /
+     - /
      - `Google drive <https://drive.google.com/drive/folders/1m04mgkxXBo2in5Cq9Dv9fymwtA5V72IY?usp=drive_link>`_
    * - 6
      - Mosaic integration
