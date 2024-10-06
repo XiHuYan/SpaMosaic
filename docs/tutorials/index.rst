@@ -5,6 +5,7 @@ Tutorials
 
 For each task, we provide two to three examples detailing SpaMosaic's workflow, 
 including preprocessing, input preparation, training, inference, clustering, and visualization (evaluation).
+The figures below are cited from `Richard et. al, Nature Biotechnology <https://www.nature.com/articles/s41587-021-00895-7>`_
 
 **Integration**
 
@@ -40,11 +41,9 @@ including preprocessing, input preparation, training, inference, clustering, and
 
 **Imputation**
 
-.. image:: ../_static/imputation.jpg
+.. figure:: ../_static/imputation.jpg
    :width: 240px
-   :align: left
-
-.. container:: center-caption
+   :align: center
 
    `Imputation <./imputation/index.rst>`_
 
