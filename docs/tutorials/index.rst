@@ -43,7 +43,7 @@ The figures below are cited from `Richard et. al, Nature Biotechnology <https://
 
 .. figure:: ../_static/imputation.jpg
    :width: 240px
-   :align: center
+   :align: left
 
    `Imputation <./imputation/index.rst>`_
 

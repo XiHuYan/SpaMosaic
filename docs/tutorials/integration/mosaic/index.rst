@@ -7,7 +7,7 @@ We provide three examples of mosaic integration: the first integrates three simu
 , and the third integrates three human tonsillar sections (RNA+protein).
 
 .. list-table::
-   :widths: 33 33 33
+   :widths: 50 50
    :header-rows: 0
 
    * - .. image:: ../../../_static/simulation_mosaic.jpg
@@ -26,7 +26,11 @@ We provide three examples of mosaic integration: the first integrates three simu
 
           `Mouse brain (RNA+H3K4me3, 3 sections) <./Mouse_postnatal_brain_rna+H3K4me3_beta.ipynb>`_
 
-     - .. image:: ../../../_static/tonsil_mosaic.jpg
+.. list-table::
+   :widths: 50
+   :header-rows: 0
+
+   * - .. image:: ../../../_static/tonsil_mosaic.jpg
          :width: 120px
          :align: center
 
