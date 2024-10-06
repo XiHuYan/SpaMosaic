@@ -3,6 +3,9 @@ Tutorials
 
 .. Tutorials
 
+For each task, we provide two to three examples detailing SpaMosaic's workflow, 
+including preprocessing, input preparation, training, inference, clustering, and visualization (evaluation).
+
 **Integration**
 
 .. list-table::
@@ -40,6 +43,8 @@ Tutorials
 .. figure:: ../_static/imputation.jpg
    :width: 240px
    :align: left
+
+.. container:: center-caption
 
    `Imputation <tutorials/imputation/index>`_
 

@@ -2,6 +2,8 @@ Vertical Integration
 ====================
 
 .. Vertical Integration
+We provide two examples of vertical integration: one for integrating RNA and ATAC modalities in a mouse brain section, 
+and another for integrating RNA and protein modalities in a human tonsillar section.
 
 .. list-table::
    :widths: 50 50

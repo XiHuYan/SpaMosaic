@@ -2,6 +2,9 @@ Mosaic Integration
 ==================
 
 .. Mosaic Integration
+We provide three examples of mosaic integration: the first integrates three simulated sections (RNA + protein)
+, the second integrates three mouse brain sections (RNA + H3K4me3)
+, and the third integrates three human tonsillar sections (RNA+protein).
 
 .. list-table::
    :widths: 33 33 33

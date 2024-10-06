@@ -2,6 +2,8 @@ Horizontal Integration
 ======================
 
 .. Horizontal Integration 
+We provide two examples of horizontal integration: one for integrating three mouse brain sections in the RNA modality,
+, another for integrating three human tonsillar sections in the RNA modality.
 
 .. list-table::
    :widths: 50 50
