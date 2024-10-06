@@ -3,9 +3,11 @@ Imputation
 
 .. Imputation Tutorial
 
-`Impute ATAC from RNA (Mouse brain dataset) <./Mouse_postnatal_brain_rna+atac_beta.ipynb>`_
+We provide two examples of imputation: 
 
-`Impute Protein from RNA (Tonsil dataset) <./Human_tonsil_rna+adt_beta.ipynb>`_
+- `Impute ATAC based on RNA in a mouse brain dataset <./Mouse_postnatal_brain_rna+atac_beta.ipynb>`_
+
+- `Impute protein based on RNA in a human tonsillar dataset <./Human_tonsil_rna+adt_beta.ipynb>`_
 
 .. toctree::
    :maxdepth: 1

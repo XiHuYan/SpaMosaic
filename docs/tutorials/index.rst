@@ -18,7 +18,7 @@ including preprocessing, input preparation, training, inference, clustering, and
          
        .. container:: center-caption
 
-          `Horizontal Integration <integration/horizontal/index>`_
+          `Horizontal Integration <./integration/horizontal/index.rst>`_
 
      - .. image:: ../_static/vertical.jpg
          :width: 120px
@@ -26,7 +26,7 @@ including preprocessing, input preparation, training, inference, clustering, and
 
        .. container:: center-caption
 
-          `Vertical Integration <integration/vertical/index>`_
+          `Vertical Integration <./integration/vertical/index.rst>`_
 
      - .. image:: ../_static/mosaic.jpg
          :width: 120px
@@ -34,19 +34,19 @@ including preprocessing, input preparation, training, inference, clustering, and
 
        .. container:: center-caption
         
-          `Mosaic Integration <integration/mosaic/index>`_
+          `Mosaic Integration <./integration/mosaic/index.rst>`_
 
 
 
 **Imputation**
 
-.. figure:: ../_static/imputation.jpg
+.. image:: ../_static/imputation.jpg
    :width: 240px
    :align: left
 
 .. container:: center-caption
 
-   `Imputation <tutorials/imputation/index>`_
+   `Imputation <./imputation/index.rst>`_
 
 .. directory
 
